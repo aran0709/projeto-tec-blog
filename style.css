@@ -91,6 +91,7 @@ Layout
 #area-lateral{
     max-width: 240px;
     float: right;
+    
 }
 #area-lateral > a:link, #area-lateral a:visited{
    color: #f7b600;
@@ -100,25 +101,26 @@ Layout
 
 #area-lateral a:hover{
     text-decoration: underline;
+
 }
 .conteudo-lateral{
     background-color: white;
     padding: 10px;
     margin-bottom:  20px; 
+    border-radius: 5px;
 }
 .conteudo-lateral > h3{
     color: #565656;
     background-color: #ccc;
     padding: 5px;
+    border-radius: 5px;
 }
 .postagem-lateral {
     font-size: 0.8em;
     padding: 5px;
     border-bottom: 1px dotted #ccc;
 }
-#menu-categorias{
-    
-}
+
 /* rodape da pagina*/
 
 #rodape {
