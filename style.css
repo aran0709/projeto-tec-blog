@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS',helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+h1{
+    color: #4e4e4e;
+    font-size: 2.5rem;
+}
+h2{
+    color: #f7b600;
+}
+.branco{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+/*
+Layout
+*/
+#cabeçalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.205);
+}
+#logo{
+    padding: 10px;
+}
+#menu{
+    padding: 10px;
+}
+#cabeçalho a:link, #cabeçalho a:visited{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+#menu > a:hover{
+    color:#f7b600 ;
+    background-color: white;
+    padding: 9px;
+    transition: 0.2s;
+    border-radius: 5px;
+
+}
+/*area principal*/
+#conteiner-principal{
+    
+    max-width: 920px;
+    margin: auto;
+    padding: 15px;
+}
+#area-postagens{
+    max-width: 660px;
+    
+    float: left;
+  
+}
+.postagem{
+    padding: 20px ;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+.postagem > img{
+    max-width: 620px;
+    border: 3px solid #f7b600;
+    margin-top: 10px;
+}
+.postagem > a{
+    color: #f7b600;
+    margin: 5px;    
+}
+.postagem > a:hover{
+    text-decoration: underline;
+}
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+#area-lateral{
+    max-width: 240px;
+    float: right;
+}
+#area-lateral > a:link, #area-lateral a:visited{
+   color: #f7b600;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+#area-lateral a:hover{
+    text-decoration: underline;
+}
+.conteudo-lateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom:  20px; 
+}
+.conteudo-lateral > h3{
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+}
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
+#menu-categorias{
+    
+}
+/* rodape da pagina*/
+
+#rodape {
+    padding: 15px;
+    clear:both;
+    text-align: center;
+    background-color:#ccc ;
+   
+}
